@@ -1,0 +1,87 @@
+body {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     display: flex;
+     height: 100vh;
+     width: 100vw;
+     overflow: hidden; /* Evita barras de rolagem */
+ }
+
+ .left-half,
+ .right-half {
+     flex: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 9.9); 
+ }
+
+ .left-half {
+     background-color: #000;
+     width: 50%;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 9.9); 
+ }
+
+ .gif-image {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 9.9); 
+     object-fit: cover; /* Faz o GIF cobrir a área sem distorcer */
+ }
+
+ .right-half {
+     background: linear-gradient(to bottom, #2e8b57, #006400);
+     color: #fff;
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+
+ .container-index {
+     max-width: 600px;
+     padding: 20px;
+ }
+
+ .header-index {
+     margin-bottom: 50px;
+ }
+
+ .header-index h1 {
+     font-size: 3em;
+     margin: 0;
+ }
+
+ .header-index p {
+     font-size: 1.2em;
+ }
+
+ .button-index-group-index {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .button-index {
+     background: #4caf50;
+     color: white;
+     border: none;
+     padding: 15px 30px;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 1.2em;
+     text-decoration: none;
+     display: inline-block;
+     transition: background 0.3s, transform 0.3s;
+ }
+
+ .button-index:hover {
+     background: #45a049;
+     transform: translateY(-5px);
+ }

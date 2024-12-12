@@ -1,0 +1,87 @@
+.body-register-abrigo {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     background: linear-gradient(to bottom, #2e8b57, #006400);
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ .container-register-abrigo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     max-width: 600px;
+ }
+
+ .form-container-register-abrigo {
+     background: rgba(0, 0, 0, 0.5);
+     border-radius: 10px;
+     padding: 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     width: 100%;
+ }
+
+ .form-container-register-abrigo h1 {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .form-container-register-abrigo label {
+     display: block;
+     margin-bottom: 8px;
+ }
+
+ .form-container-register-abrigo input {
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 16px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     box-sizing: border-box;
+ }
+
+ .form-container-register-abrigo button {
+     width: 100%;
+     padding: 10px;
+     background: #4caf50;
+     border: none;
+     color: white;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ .form-container-register-abrigo button:hover {
+     background: #45a049;
+ }
+
+ .logout-button, .home-button{
+position: absolute;
+top: 10px;
+display: flex;
+align-items: center;
+}
+
+.home-button {
+right: 80px;
+}
+
+.logout-button {
+right: 10px;
+}
+
+.home-button a, .logout-button a {
+color: #fff;
+text-decoration: none;
+display: flex;
+align-items: center;
+margin-right: 10px;
+}
+
+.home-button i, .logout-button i {
+margin-right: 8px;
+}
